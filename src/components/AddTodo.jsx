@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react';
+import '../index.css';
 
 export default function AddTodo() {
+  const [title, setTitle] = useState('');
+  const [desc, setDesc] = useState('');
   return (
-    <div>AddTodo</div>
-  )
+    <div className="todo-form-container">
+      <h2>Add Todo</h2>
+    </div>
+  );
 }
