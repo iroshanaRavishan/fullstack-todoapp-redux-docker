@@ -5,7 +5,7 @@ export default function AddTodo() {
   const [title, setTitle] = useState('');
   const [desc, setDesc] = useState('');
   return (
-    <div>
+    <div className="todo-form-container">
       <h2>Add Todo</h2>
     </div>
   );
