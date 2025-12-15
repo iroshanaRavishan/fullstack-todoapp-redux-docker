@@ -1,7 +1,20 @@
-import React from 'react'
+import React from "react";
+import "../index.css";
+import { BsMastodon } from "react-icons/bs";
 
-export default function Header() {
+const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <header className="header">
+      <div className="logo-container">
+        <BsMastodon className="logo" />
+      </div>
+
+      <nav className="nav">
+        <a href="#home" className="nav-link">Home</a>
+        <a href="#about" className="nav-link">About</a>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
