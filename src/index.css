@@ -95,3 +95,7 @@
   font-size: 12px;
   transition: background-color 0.3s;
 }
+
+.tag:hover {
+  background-color: #0056b3;
+}
