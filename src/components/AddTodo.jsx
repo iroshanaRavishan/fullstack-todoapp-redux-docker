@@ -4,6 +4,9 @@ import '../index.css';
 export default function AddTodo() {
   const [title, setTitle] = useState('');
   const [desc, setDesc] = useState('');
+  const [status, setStatus] = useState('');
+  const [priority, setPriority] = useState('');
+
   return (
     <div className="todo-form-container">
       <h2>Add Todo</h2>
