@@ -7,6 +7,8 @@ export default function AddTodo() {
   const [status, setStatus] = useState('Pending');
   const [priority, setPriority] = useState('Low');
   const [tags, setTags] = useState([]);
+  const [tagInput, setTagInput] = useState('');
+  const [dueDate, setDueDate] = useState('');
 
   return (
     <div className="todo-form-container">
