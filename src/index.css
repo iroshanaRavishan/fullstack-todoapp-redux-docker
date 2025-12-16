@@ -112,3 +112,33 @@ select.status option[value='Complete'] {
 select.status option[value='Blocked'] {
   background-color: #d9534f;
 }
+
+.todo-form-container .btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-form-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-form-container button.submit-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+.todo-form-container button.submit-btn:hover {
+  background-color: #218838;
+}
+
+.todo-form-container button.cancel-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+.todo-form-container button.cancel-btn:hover {
+  background-color: #c82333;
+}
