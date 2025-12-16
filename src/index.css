@@ -58,3 +58,23 @@
   font-weight: bold;
   color: #555;
 }
+
+.todo-form-container input[type='text'],
+.todo-form-container textarea,
+.todo-form-container select,
+.todo-form-container input[type='date'] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.todo-form-container input:focus,
+.todo-form-container textarea:focus,
+.todo-form-container select:focus,
+.todo-form-container input[type='date']:focus {
+  border-color: #007bff;
+  outline: none;
+}
