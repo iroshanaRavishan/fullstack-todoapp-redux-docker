@@ -99,3 +99,16 @@
 .tag:hover {
   background-color: #0056b3;
 }
+
+select.status option[value='Pending'] {
+  background-color: #f0ad4e;
+}
+select.status option[value='InProgress'] {
+  background-color: #5bc0de;
+}
+select.status option[value='Complete'] {
+  background-color: #5cb85c;
+}
+select.status option[value='Blocked'] {
+  background-color: #d9534f;
+}
