@@ -22,7 +22,7 @@ export default function AddTodo() {
   };
 
   const handleSubmit = (e) => {
-
+    e.preventDefault();
   };
 
 
