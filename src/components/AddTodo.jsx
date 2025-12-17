@@ -11,7 +11,9 @@ export default function AddTodo() {
   const [dueDate, setDueDate] = useState('');
 
   const addTag = () => {
-
+    if (tagInput && !tags.includes(tagInput)) {
+      setTags([...tags, tagInput]);
+    }
   };
 
   return (
