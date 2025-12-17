@@ -29,6 +29,7 @@ export default function AddTodo() {
   };
 
   const handleCancel = () => {
+    setTitle('');
   };
 
   return (
