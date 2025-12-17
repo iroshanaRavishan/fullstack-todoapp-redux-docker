@@ -31,6 +31,7 @@ export default function AddTodo() {
   const handleCancel = () => {
     setTitle('');
     setDesc('');
+    setStatus('Pending');
   };
 
   return (
