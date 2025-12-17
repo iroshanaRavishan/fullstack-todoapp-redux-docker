@@ -13,7 +13,7 @@ export default function AddTodo() {
   const addTag = () => {
     if (tagInput && !tags.includes(tagInput)) {
       setTags([...tags, tagInput]);
-    }
+      setTagInput('');
   };
 
   return (
