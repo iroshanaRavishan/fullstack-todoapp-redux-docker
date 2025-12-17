@@ -10,6 +10,12 @@ export default function AddTodo() {
   const [tagInput, setTagInput] = useState('');
   const [dueDate, setDueDate] = useState('');
 
+  const addTag = () => {
+    if (tagInput && !tags.includes(tagInput)) {
+      setTags([...tags, tagInput]);
+      setTagInput('');
+  };
+
   return (
     <div className="todo-form-container">
       <h2>Add Todo</h2>
