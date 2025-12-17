@@ -23,6 +23,9 @@ export default function AddTodo() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const todoData = { title, desc, status, priority, tags, dueDate };
+    console.log('Todo Submitted:', todoData);
+    // can integrate redux dispatch or API call
   };
 
 
