@@ -18,6 +18,7 @@ export default function AddTodo() {
   };
 
   const removeTag = (tagToRemove) => {
+    setTags(tags.filter(tag => tag !== tagToRemove));
   };
 
   return (
