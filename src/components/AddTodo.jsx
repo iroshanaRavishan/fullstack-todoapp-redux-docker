@@ -28,6 +28,8 @@ export default function AddTodo() {
     // can integrate redux dispatch or API call
   };
 
+  const handleCancel = () => {
+  };
 
   return (
     <div className="todo-form-container">
