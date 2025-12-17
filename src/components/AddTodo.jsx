@@ -32,6 +32,7 @@ export default function AddTodo() {
     setTitle('');
     setDesc('');
     setStatus('Pending');
+    setPriority('Low');
   };
 
   return (
