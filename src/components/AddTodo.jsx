@@ -14,6 +14,10 @@ export default function AddTodo() {
     if (tagInput && !tags.includes(tagInput)) {
       setTags([...tags, tagInput]);
       setTagInput('');
+    }
+  };
+
+  const removeTag = (tagToRemove) => {
   };
 
   return (
