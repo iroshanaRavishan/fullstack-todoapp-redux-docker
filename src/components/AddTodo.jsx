@@ -21,6 +21,11 @@ export default function AddTodo() {
     setTags(tags.filter(tag => tag !== tagToRemove));
   };
 
+  const handleSubmit = (e) => {
+
+  };
+
+
   return (
     <div className="todo-form-container">
       <h2>Add Todo</h2>
