@@ -33,6 +33,8 @@ export default function AddTodo() {
     setDesc('');
     setStatus('Pending');
     setPriority('Low');
+    setTags([]);
+    setDueDate('');
   };
 
   return (
