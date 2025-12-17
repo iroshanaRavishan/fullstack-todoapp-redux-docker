@@ -23,6 +23,7 @@ export default function AddTodo() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const todoData = { title, desc, status, priority, tags, dueDate };
   };
 
 
