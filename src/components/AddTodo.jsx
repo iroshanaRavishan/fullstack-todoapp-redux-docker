@@ -10,6 +10,10 @@ export default function AddTodo() {
   const [tagInput, setTagInput] = useState('');
   const [dueDate, setDueDate] = useState('');
 
+  const addTag = () => {
+
+  };
+
   return (
     <div className="todo-form-container">
       <h2>Add Todo</h2>
